@@ -1,6 +1,7 @@
 #if os(iOS)
 
 import UIKit
+@MainActor
 public class CameraHandler {
     public static func presentCamera(from viewController: UIViewController, delegate: CameraDelegate) {
         let cameraVC = CameraViewController()
